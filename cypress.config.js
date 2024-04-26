@@ -27,7 +27,7 @@ module.exports = defineConfig({
 
       return config;
     },
-    baseUrl: 'https://your-application-url.com', // Sustituye con la URL de tu aplicación
+    baseUrl: 'https://qa.inteligenio.com/', // Sustituye con la URL de tu aplicación
     reporter: 'cypress-mochawesome-reporter',
     reporterOptions: {
       reportDir: 'cypress/reports',
